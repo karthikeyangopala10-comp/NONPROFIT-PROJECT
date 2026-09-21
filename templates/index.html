@@ -1,11 +1,102 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces&family=Inter&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Food Bank iteration 1</title>
-</head>
-<body>
-    
-</body>
+
+    <style>
+      :root {
+        --bg: #faf8f3;
+        --text: #1f2a1e;
+        --accent: #2f5233;
+      }
+      header {
+        border-bottom: 1px solid #dad3c2;
+      }
+
+      .wrap-header {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        font-family: "Fraunces", serif;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--accent);
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+      }
+
+      h1 {
+        font-family: "Fraunces", serif;
+        margin-bottom: 16px;
+      }
+      p {
+        margin-bottom: 24px;
+      }
+      textarea {
+        margin-bottom: 12px;
+        display: block;
+      }
+
+      button {
+        font-family: "inter", sans-serif;
+        background: var(--accent);
+        color: var(--bg);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        font-size: 0.95rem;
+        cursor: pointer;
+      }
+      .wrap {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 80px 24px 60px;
+      }
+      textarea {
+        font-family: "Inter", sans-serif;
+        border: 1px solid #dad3c2;
+        border-radius: 4px;
+        padding: 12px 14px;
+        font-size: 0.95rem;
+        color: var(--text);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="wrap-header">
+        <span class="logo">Food Synergy</span>
+        <button>AI Organizer</button>
+      </div>
+    </header>
+    <div class="wrap">
+      <h1>Food Banks can be hard to manage, even with a lot of staff.</h1>
+      <p>
+        This website can help your business thrive as it has many features,
+        including an AI bot, that can help manage food inventory, organize
+        volunteers, track areas where food is needed the most, and many more.
+      </p>
+      <textarea>Enter organization name...</textarea>
+      <br />
+    </div>
+  </body>
 </html>
